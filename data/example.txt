@@ -1,0 +1,4 @@
+This is an example document for the RAG text search system.
+You can add as many .txt files as you want into the data/ directory.
+Each file will be split into chunks, embedded, and stored in the vector database.
+Then you can query them semantically via the API.

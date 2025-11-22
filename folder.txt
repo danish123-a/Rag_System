@@ -1,0 +1,9 @@
+rag_vector_demo/
+├─ app.py          # FastAPI app (search + RAG)
+├─ rag.py          # RAG pipeline logic
+├─ vectordb.py     # Vector DB wrapper (Chroma)
+├─ ingest.py       # Script to index .txt files into vector DB
+├─ config.py       # Config (paths, model names, etc.)
+├─ requirements.txt
+└─ data/           # Put your .txt files here
+   └─ example.txt
